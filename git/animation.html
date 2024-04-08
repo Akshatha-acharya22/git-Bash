@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            position: relative;
+            animation-name: colorchange;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes colorchange{
+            0%{
+                background-color: blueviolet;
+            }
+            25%{
+                background-color: cadetblue;
+            }
+            50%{
+                background-color: crimson;
+            }
+            100%{
+                background-color: palevioletred;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
